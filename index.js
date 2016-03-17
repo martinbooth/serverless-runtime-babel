@@ -1,3 +1,3 @@
 module.exports = function(S) {
-  S.classes.RuntimeNode = require('./lib/RuntimeBabel')(S);
+  S.classes.RuntimeBabel = require('./lib/RuntimeBabel')(S);
 }
