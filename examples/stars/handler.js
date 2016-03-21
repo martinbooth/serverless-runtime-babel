@@ -1,12 +1,17 @@
 import "babel-polyfill"
-import axios from "axios"
+import request from "request-promise"
+
+const headers = {
+  'User-Agent': 'Serverless'
+};
 
 export default ({repos}) => {
 
   return Promise.all(repos.map(repo => {
-    return axios.get(`https://api.github.com/repos/${repo}`)
-      .then(({data}) => ({repo, stars: data.stargazers_count}))
+    let uri = `https://api.github.com/repos/${repo}`
+
+    return request({headers, uri, json: true})
+      .then(({stargazers_count}) => ({repo, stars: stargazers_count}))
   }))
 
 }
-
