@@ -9,6 +9,7 @@
 **Note:** Serverless v0.5.0 or higher is required.
 * Install via npm in the root of your Serverless Project:
       npm install serverless-runtime-babel --save
+* In the `plugins` array in your `s-project.json` add `"serverless-runtime-babel"`
 * All done!
 
 ## Usage
