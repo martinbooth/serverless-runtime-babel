@@ -1,6 +1,6 @@
 {
   "name": "serverless-runtime-babel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Babel runtime for the Serverless framework",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "plugin",
     "runtime"
   ],
-  "author": "serverless.com",
+  "author": "Egor Kislitsyn <serverless.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/serverless/serverless-runtime-babel/issues"
