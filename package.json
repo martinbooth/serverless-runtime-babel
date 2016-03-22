@@ -4,8 +4,7 @@
   "description": "A Babel runtime for the Serverless framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node lib/install.js"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -17,8 +16,8 @@
     "plugin",
     "runtime"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "serverless.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/serverless/serverless-runtime-babel/issues"
   },
