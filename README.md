@@ -7,8 +7,7 @@
 
 ## Install
 **Note:** Serverless v0.5.0 or higher is required.
-* Install via npm in the root of your Serverless Project:
-      npm install serverless-runtime-babel --save
+* Install via npm in the root of your Serverless Project: `npm install serverless-runtime-babel --save`
 * In the `plugins` array in your `s-project.json` add `"serverless-runtime-babel"`
 * All done!
 
@@ -66,12 +65,11 @@ export default ({repos}) => {
 }
 ```
 
-
 ### Scaffold
-You can use `serverless function create` as usual — it will promt you for a rintime unless you add `-r babel` flag.
+You can use `serverless function create` as usual — it will promt you for a runtime unless you add the `-r babel` flag.
 
 ### Examples
- * [Example Hander](https://github.com/serverless/serverless-runtime-babel/tree/master/examples/stars)
+* [GitHub stargazers example](https://github.com/serverless/serverless-runtime-babel/tree/master/examples/stars) - Returns amount of starts for a GitHub repo
 
 ## Options
 
@@ -97,7 +95,7 @@ For more information on these options, please visit the [Browserify Documentaton
 
 ### Example
 
-Example Babel Runtime configuration with defaults values:
+Example Babel Runtime configuration with default values:
 
 ```javascript
 {
