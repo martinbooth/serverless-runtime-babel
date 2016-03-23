@@ -1,6 +1,6 @@
 # Babel Runtime for [Serverless](http://serverless.com)
 
-[![serverless](http://public.serverless.com/badges/v1.svg)](http://www.serverless.com)
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 ## Features 
  *  **Runs locally and deploys functions written in ES2015 syntax (via [Babel](https://babeljs.io/))**
