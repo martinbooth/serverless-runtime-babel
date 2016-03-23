@@ -1,6 +1,6 @@
 {
   "name": "serverless-runtime-babel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Babel runtime for the Serverless framework",
   "main": "index.js",
   "scripts": {
